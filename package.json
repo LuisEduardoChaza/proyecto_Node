@@ -1,10 +1,14 @@
 {
   "name": "proyecto_node",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is a project for node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisEduardoChaza/proyecto_Node.git"
   },
   "keywords": [
     "api",
@@ -14,6 +18,10 @@
   ],
   "author": "Luis Eduardo Chávez Sánchez",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisEduardoChaza/proyecto_Node/issues"
+  },
+  "homepage": "https://github.com/LuisEduardoChaza/proyecto_Node#readme",
   "dependencies": {
     "express": "^4.18.2"
   }
