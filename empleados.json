@@ -1,0 +1,73 @@
+{
+    "empleado": [{
+        "id_empleado": 1,
+        "nombre": "Javier",
+        "apellido": "Illezkas",
+        "telefono": 2147483647,
+        "correo": "javiIll@empleo.com",
+        "direccion": "Av. Siempre Viva #100"
+    }, {
+        "id_empleado": 2,
+        "nombre": "Hector",
+        "apellido": "Cortez",
+        "telefono": 2147483647,
+        "correo": "hecoalC@empleo.com",
+        "direccion": "Sta. Fe #47"
+    }, {
+        "id_empleado": 3,
+        "nombre": "Javier",
+        "apellido": "Zamudio",
+        "telefono": 2147483647,
+        "correo": "javiZam@empleo.com",
+        "direccion": "Av. Luz Oscura #6"
+    }, {
+        "id_empleado": 4,
+        "nombre": "Ivan",
+        "apellido": "Castillo",
+        "telefono": 2147483647,
+        "correo": "ivanCas@empleo.com",
+        "direccion": "Av. EnojoTime #117"
+    }, {
+        "id_empleado": 5,
+        "nombre": "Luis",
+        "apellido": "Edwuardo",
+        "telefono": 2147483647,
+        "correo": "luisEdw@empleo.com",
+        "direccion": "San Juan Tadeo #2"
+    }, {
+        "id_empleado": 6,
+        "nombre": "Pablo",
+        "apellido": "Contreras",
+        "telefono": 2147483647,
+        "correo": "pabloCon@empleo.com",
+        "direccion": "Av. Voluntad #666"
+    }, {
+        "id_empleado": 7,
+        "nombre": "Noel",
+        "apellido": "Araujo",
+        "telefono": 2147483647,
+        "correo": "noelAra@empleo.com",
+        "direccion": "Calle Peñamiler #45"
+    }, {
+        "id_empleado": 8,
+        "nombre": "Alan",
+        "apellido": "Herrera",
+        "telefono": 2147483647,
+        "correo": "alanHer@empleo.com",
+        "direccion": "Sta. Olmera #94"
+    }, {
+        "id_empleado": 9,
+        "nombre": "Laura",
+        "apellido": "Gutierrez",
+        "telefono": 2147483647,
+        "correo": "lauraGut@empleo.com",
+        "direccion": "Av. Vecindad #8"
+    }, {
+        "id_empleado": 10,
+        "nombre": "Karen",
+        "apellido": "Luna",
+        "telefono": 2147483647,
+        "correo": "karenLun@empleo.com",
+        "direccion": "Sta. Valle Olvidado #7"
+    }]
+}
