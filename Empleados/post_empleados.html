@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/post_empleados.js"></script>
+    <title>Empleados</title>
+</head>
+<body>
+        <thead>
+            <tr>
+                <td width="843" style="text-align: center"><h1>Agregar Empleado</h1></td>
+                <td width="300" style="text-align: center"><button id="employees">Regresar a Empleados</button></td>
+                <td width="300" style="text-align: center"><button id="logout">Cerrar Sesion</button></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center"></td>
+                <td style="text-align: center">
+                    <h3>nombre: <input type="text" id="nombre"></h3>
+                    <h3>apellido: <input type="text" id="apellido"></h3>
+                    <h3>telefono: <input type="text" id="telefono"></h3>
+                    <h3>correo: <input type="text" id="correo"></h3>
+                    <h3>direccion: <input type="text" id="direccion"></h3>
+                    <button id="post">Agregar</button>
+                </td>
+                <td style="text-align: center"></td>
+            </tr>
+        </tbody>
+</body>
+</html>

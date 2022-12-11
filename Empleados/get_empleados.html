@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/get_empleados.js"></script>
+    <title>Employees</title>
+</head>
+<body>
+        <thead>
+            <tr>
+                <td width="873" style="text-align: center"><h1>Consultar Empleado</h1></td>
+                <td width="300" style="text-align: center"><button id="employees">Regresar a Empleados</button></td>
+                <td width="300" style="text-align: center"><button id="logout">Cerrar Sesion</button></td>
+            </tr>
+        </thead>
+        <tbody id="table_body">
+            <tr>
+                <td style="text-align: center"></td>
+                <td style="text-align: center">
+                    <h2>Consulta</h2>
+                </td>
+                <td style="text-align: center"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center"></td>
+                <td style="text-align: center"><h3>Escribe el id: <br><br>
+                    <input type="text" id="params" placeholder="ID o Nombre">
+                    <br>
+                  </h3>
+                  <button id="post">Buscar</button>
+                    <br></td>
+                <td style="text-align: center"></td>
+            </tr>
+        </tbody>
+</body>
+</html>

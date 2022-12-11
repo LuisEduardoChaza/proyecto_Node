@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/patch_empleados.js"></script>
+    <title>Actualizar Empleados</title>
+</head>
+<body>
+        <thead>
+            <tr>
+                <td width="964" style="text-align: center"><h1>Actualizar Empleado</h1></td>
+                <td width="300" style="text-align: center"><button id="employees">Regresar a Empleados</button></td>
+                <td width="300" style="text-align: center"><button id="logout">Cerrar Sesion</button></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center"></td>
+                <td style="text-align: center">
+                    <h2>id del empleado</h2>
+                    <h3>id: <input type="text" id="id_empleado"></h3>
+                </td>
+                <td style="text-align: center"></td>
+            </tr>
+            <tr>
+                <td style="text-align: center"></td>
+                <td style="text-align: center">
+                    <h3>Nombre: <input type="text" id="nombre"></h3>
+                    <h3>Apellido: <input type="text" id="apellido"></h3>
+                    <h3>Telefono: <input type="text" id="telefono"></h3>
+                    <h3>Correo: <input type="text" id="correo"></h3>
+                    <h3>Direccion: <input type="text" id="direccion"></h3>
+                    <button id="patch">Actualizar</button>
+                </td>
+                <td style="text-align: center"></td>
+            </tr>
+        </tbody>
+</body>
+</html>
